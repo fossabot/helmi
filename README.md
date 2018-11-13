@@ -2,6 +2,7 @@
 Open Service Broker API Implementation using helm
 
 ![alt Logo](docs/logo.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmonostream%2Fhelmi.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmonostream%2Fhelmi?ref=badge_shield)
 
 ## Start locally
 
@@ -92,3 +93,6 @@ The service catalog and referenced Helm charts are also configured using env var
 | `HELM_NAMESPACE`  | `default` | K8s namespace in which Helm charts are deployed |
 
 In the k8s deployment, username and password are read from a secret, see [kube-helmi-secret.yaml](docs/kubernetes/kube-helmi-secret.yaml)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmonostream%2Fhelmi.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmonostream%2Fhelmi?ref=badge_large)
